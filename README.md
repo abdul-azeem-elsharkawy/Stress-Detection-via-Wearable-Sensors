@@ -56,3 +56,7 @@ F1-Score (1)   : 51%
 ## 📚 Dependencies
 - scipy
 - neurokit2
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
