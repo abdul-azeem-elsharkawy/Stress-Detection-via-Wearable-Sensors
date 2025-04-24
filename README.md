@@ -37,19 +37,19 @@ Signals were processed in **60-second windows**. For each window, the following 
 ### ✅ Model: `RandomForestClassifier`  
 - Used **class_weight='balanced'** to handle class imbalance
 - Trained using extracted features from all subjects
-- No use of SMOTE or synthetic sampling (tested and found unnecessary)
+- Used SMOTE to improve data balance, even though using the original data is often considered safer than creating synthetic data
 
 ### ⚙️ Evaluation Metrics:
 ```text
-Accuracy       : 90%
-Precision (1)  : 84%
-Recall (1)     : 36%
-F1-Score (1)   : 51%
+Accuracy       : 92%
+Precision (1)  : 69%
+Recall (1)     : 75%
+F1-Score (1)   : 72%
 ```
 
 ### 🔍 Observation:
 - Excellent at detecting **non-stress (0)** class.
-- Acceptable performance for **stress (1)** class without oversampling.
+- Very good performance for **stress (1)** class.
 
 ---
 
