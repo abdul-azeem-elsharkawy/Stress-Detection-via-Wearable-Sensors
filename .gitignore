@@ -3,3 +3,6 @@
 
 # ignore Dataset directory
 Dataset/
+
+# ignore pptx files
+signal_project_ppt\[1].pptx
