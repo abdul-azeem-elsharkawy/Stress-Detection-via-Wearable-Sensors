@@ -1,5 +1,5 @@
 # Stress Detection Using Machine Learning  
-📊🚨 Detecting Stress from Physiological Signals (ECG, EDA, Respiration)
+📊🚨 Detecting Stress from Physiological Signals (ECG, EDA, Respiration, EMG, Temperature)
 
 ## 📌 Project Overview
 This project implements a machine learning model to detect **stress** from physiological signals using the **WESAD dataset**, a benchmark multimodal dataset. The focus is on extracting handcrafted statistical features from the signals (ECG, EDA, Respiration, EMG, Temperature) and using classical machine learning algorithms to classify stress vs. non-stress states.
