@@ -42,9 +42,9 @@ Signals were processed in **30-second windows**. For each window, the following 
 ### ⚙️ Evaluation Metrics:
 ```text
 Accuracy       : 96%
-Precision (1)  : 86%
-Recall (1)     : 86%
-F1-Score (1)   : 86%
+Precision (1)  : 85%
+Recall (1)     : 88%
+F1-Score (1)   : 87%
 ```
 
 ### 🔍 Observation:
