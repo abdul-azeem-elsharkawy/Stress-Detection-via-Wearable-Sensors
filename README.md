@@ -2,7 +2,7 @@
 📊🚨 Detecting Stress from Physiological Signals (ECG, EDA, Respiration)
 
 ## 📌 Project Overview
-This project implements a machine learning model to detect **stress** from physiological signals using the **WESAD dataset**, a benchmark multimodal dataset. The focus is on extracting handcrafted statistical features from the signals (ECG, EDA, Respiration) and using classical machine learning algorithms to classify stress vs. non-stress states.
+This project implements a machine learning model to detect **stress** from physiological signals using the **WESAD dataset**, a benchmark multimodal dataset. The focus is on extracting handcrafted statistical features from the signals (ECG, EDA, Respiration, EMG, Temperature) and using classical machine learning algorithms to classify stress vs. non-stress states.
 
 ---
 
@@ -23,11 +23,11 @@ We focus on the **ECG, EDA, and Respiration** signals from the **chest sensor**.
 
 ## 🛠️ Feature Extraction
 
-Signals were processed in **60-second windows**. For each window, the following features were extracted:
+Signals were processed in **30-second windows**. For each window, the following features were extracted:
 
 - **ECG → Heart Rate (HR)** was calculated using R-R intervals from cleaned ECG signal.
 - **Statistical features per window**:
-  - `mean`, `std`, `min`, `max` for: **HR, EDA, Respiration**
+  - `mean`, `std`, `min`, `max` for: **HR, EDA, Respiration, EMG, Temperature**
   - Most frequent label in the window
 
 ---
@@ -41,10 +41,10 @@ Signals were processed in **60-second windows**. For each window, the following 
 
 ### ⚙️ Evaluation Metrics:
 ```text
-Accuracy       : 92%
+Accuracy       : 93%
 Precision (1)  : 72%
-Recall (1)     : 75%
-F1-Score (1)   : 73%
+Recall (1)     : 86%
+F1-Score (1)   : 78%
 ```
 
 ### 🔍 Observation:
