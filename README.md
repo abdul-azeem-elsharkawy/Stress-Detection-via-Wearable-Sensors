@@ -27,7 +27,7 @@ Signals were processed in **30-second windows**. For each window, the following 
 
 - **ECG → Heart Rate (HR)** was calculated using R-R intervals from cleaned ECG signal.
 - **Statistical features per window**:
-  - `mean`, `std`, `min`, `max` and more for: **HR, EDA, Respiration, EMG, Temperature**
+  - `mean`, `std`, `min`, `max` and more for: **HR, ECG, EDA, Respiration, EMG, Temperature**
   - Most frequent label in the window
 
 ---
