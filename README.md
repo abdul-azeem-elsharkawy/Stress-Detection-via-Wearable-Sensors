@@ -12,7 +12,7 @@ This project implements a machine learning model to detect **stress** from physi
 - **Chest-worn device** (ECG, EDA, Respiration, EMG, Temperature, Accelerometer)
 - **Wrist-worn device** (not used in this project)
 
-We focus on the **ECG, EDA, EMG, Temperature and Respiration** signals from the **chest sensor**.
+We focus on the **ECG, EDA, EMG, Temperature, and Respiration** signals from the **chest sensor**.
 
 - Sampling Rate: `700 Hz`
 - Labels:
