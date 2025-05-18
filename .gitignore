@@ -6,3 +6,6 @@ Dataset/
 
 # ignore pptx files
 signal_project_ppt\[1].pptx
+
+# ignore presentation video
+Presentation.mp4
